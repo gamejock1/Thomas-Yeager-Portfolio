@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <link rel="stylesheet" href="index.css">
+  <script src='index.js'></script>
+  <title>Thomas Yeager Portfolio</title>
+</head>
+
+<body>
+
+  <nav>
+    <div style="background:rgb(31, 90, 146);" class="nav-wrapper">
+      <a style="margin-left: 2%;" href="#" class="brand-logo">Thomas Yeager</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li>
+          <a class="navLink" href="https://www.linkedin.com/in/john-yeager-a76175163/">Linked In Profile</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div id="content">
+
+    <div class="row" id="bio">
+      <div class="col s12 m12 l3" id="picDiv">
+        <img id="image" src="images/IMG_1706.JPG">
+      </div>
+
+      <div>
+        <div class="col s12 m12 l6">
+          <h4 id="bio2">About Me</h4>
+          <p id="summary">Web developer with large assortment of technical skills. Strong at approaching problems and solving them as efficiently
+            as possible. Can work either in groups, alone, or lead a group to success. I strongly grasp front end development
+            all the way to database services.</p>
+          <h4 id="bio3">Technical Skills</h4>
+          <p id="technicalSkills">Node.Js, Express, JavaScript, jQuery, React.js, React Native, GIT, Github, MongoDB, MySQL, Firebase, HTML, CSS,
+            Bootstrap, Media Queries, APIs, JSON, REST, AJAX, Angular framework, the command line, computer science fundamentals,
+            writing tests.</p>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+  <div class="parallax-container">
+    <div class="parallax">
+
+      
+      <img id="background" src="images/projectsPic.png">
+      <h1 id="projects">Projects</h1>
+      
+    </div>
+  </div>
+
+  <div class="section white">
+    <div class="row container">
+      <div id="dictatorText">
+        <h4 class="header">The Code Dictator</h4>
+        <h5>Summary:</h5>
+        <p class="grey-text text-darken-3 lighten-3">The Code Dictator is a powerful speech-to-code web application that makes creating your HTML pages a breeze by simply
+          using your voice. The Code Dictator uses Mozilla's Web Speech API to recognize a user's voice and create HTML elements
+          that are requested. Using Bing Spell Check API, we also verify that your spelling is correct to minimize any problems
+          with the Dictator understanding your speech. After creating your elements and dragging them to your element tree,
+          we have also integrated with the W3C Markup Validation Service to make sure your HTML is syntactically sound.</p>
+        <h5>Github Link:
+          <a href="https://github.com/Geoff-Goodwin-Dev/TheTable-TheCodeDictator">https://github.com/Geoff-Goodwin-Dev/TheTable-TheCodeDictator</a>
+        </h5>
+        <h5>Deployed Link:
+          <a href="https://geoff-goodwin-dev.github.io/TheTable-TheCodeDictator/">https://geoff-goodwin-dev.github.io/TheTable-TheCodeDictator/</a>
+        </h5>
+      </div>
+      <img id="dictator" src="images/dictator.png">
+    </div>
+  </div>
+
+  <div class="parallax-container">
+    <div class="parallax">
+      <img id="background" src="images/backgroundCode.jpg">
+    </div>
+  </div>
+
+  <div class="section white">
+    <div class="row container">
+      <div id="skynetText">
+        <h4 class="header">Skynet</h4>
+
+        <p class="grey-text text-darken-3 lighten-3">Skynet is a powerful speech-to-DRONE web application that makes flying a drone a breeze by simply using your voice
+          (or manual button commands). It is built in the Angular 4 front end framework. Skynet uses Mozilla's Web Speech
+          API to recognize a user's voice in order to execute commands. With Skynet, you also have the ability to create
+          custom flight plans. The idea behind this is, instead of telling the drone to takeOff(), calibrate(), and land(),
+          you can simply create a flight plan "Alpha", for instance, with those commands built in, and then simply tell the
+          drone to execute flight plan "Alpha". The drone will take care of taking off, calibrating, and landing all on its
+          own.
+        </p>
+        <h5>Github Link:
+          <a href="https://github.com/gamejock1/SKYNET">https://github.com/gamejock1/SKYNET</a>
+        </h5>
+        <h5>Deployed Link:
+          <a href="https://the-table-skynet.herokuapp.com/">https://the-table-skynet.herokuapp.com/</a>
+        </h5>
+      </div>
+      <img id="dictator" src="images/skynet.png">
+    </div>
+  </div>
+
+  <div class="parallax-container">
+    <div class="parallax">
+      <img id="background" src="images/backgroundCode.jpg">
+    </div>
+  </div>
+
+  <div class="section white">
+    <div class="row container">
+      <div id="skynetText">
+        <h4 class="header">Train Schdule App</h4>
+        <p class="grey-text text-darken-3 lighten-3">The Train Schedule App is an application made to demonstrait Firebase as a back end server, and Bootstrap CSS library
+          for the styling. The app sends entries to Firebase from the DOM. It then pulls information from Firebase to dynamically
+          create the DOM.</p>
+        <h5>Github Link:
+          <a href="https://github.com/gamejock1/TrainScheduleHW">https://github.com/gamejock1/TrainScheduleHW</a>
+        </h5>
+        <h5>Deployed Link:
+          <a href="https://gamejock1.github.io/TrainScheduleHW/">https://gamejock1.github.io/TrainScheduleHW/</a>
+        </h5>
+      </div>
+      <img id="dictator" src="images/Trainschedule.png">
+    </div>
+  </div>
+
+  <div class="parallax-container">
+    <div class="parallax">
+      <img id="background" src="images/backgroundCode.jpg">
+    </div>
+  </div>
+
+  <div class="section white">
+    <div class="row container">
+      <div id="skynetText">
+        <h4 class="header">Burgers App</h4>
+        <p class="grey-text text-darken-3 lighten-3">The Burger App is a full stack application built with a Node.js server and a MySQL database. It uses the Handlebars
+          MVC front end framework for rendering, and Bootstrap CSS library for styling. The user can enter new burgers, then
+          either delete or eat the entries.</p>
+        <h5>Github Link:
+          <a href="https://github.com/gamejock1/Burger-HW">https://github.com/gamejock1/Burger-HW</a>
+        </h5>
+        <h5>Deployed Link:
+          <a href="https://ancient-savannah-18276.herokuapp.com/">https://ancient-savannah-18276.herokuapp.com/</a>
+        </h5>
+      </div>
+      <img id="dictator" src="images/Burger.png">
+    </div>
+  </div>
+
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+
+
+</body>
+
+</html>
